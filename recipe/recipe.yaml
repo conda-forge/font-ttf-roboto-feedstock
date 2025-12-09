@@ -1,6 +1,6 @@
 context:
   name: font-ttf-roboto
-  version: "3.012"
+  version: "3.014"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/googlefonts/roboto-3-classic/releases/download/v${{ version }}/Roboto_v${{ version }}.zip
-  sha256: fda623da606ee230c84dab1c79e534341557510663c81b56ba57a320d36cbc2d
+  sha256: 37e09de82a6ed79f3f757e44b6b252a72221169d4ee28f4ce35bbc6b5eda5c3a
 
 build:
   number: 0
